@@ -1,0 +1,2 @@
+betterproto[compiler]>=1.2.5
+buf==1.0.0

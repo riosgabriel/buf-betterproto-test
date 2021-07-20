@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package foo.internal.v1;
+
+import "foo/external/v1/enums.proto";
+
+message SomeMessage {
+   string id = 1;
+   external.v1.Provider provider = 2;
+}

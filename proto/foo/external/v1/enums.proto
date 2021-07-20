@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package foo.external.v1;
+
+enum Provider {
+    PROVIDER_UNSPECIFIED = 0;
+    PROVIDER_UBER_DIRECT = 1;
+    PROVIDER_LALAMOVE = 2;
+}
